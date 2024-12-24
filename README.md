@@ -1,5 +1,5 @@
 # zembo_assignment
-Battery Data Scientis Assignment
+Battery Data Scientist Assignment
 
 ## The goal is to analyze battery data and swap data
 
