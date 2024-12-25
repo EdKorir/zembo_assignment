@@ -19,3 +19,6 @@ scikit-learn == 1.1.3
 adtk == 0.6.2
 
 jupyter notebook == 7.0.8
+
+Battery Data Analysis and Modelling.ipynb is the main notebook where all the analysis is done.
+battery_data.py is the scripts that collects data from all the CSVs and creates one CSV for the month.
