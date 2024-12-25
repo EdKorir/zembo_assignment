@@ -23,6 +23,8 @@ jupyter notebook == 7.0.8
 Battery Data Analysis and Modelling.ipynb is the main notebook where all the analysis is done.
 battery_data.py is the scripts that collects data from all the CSVs and creates one CSV for the month.
 
+HTML version of the notebook has been added and can be viewed prior to running the notebook.
+
 ### Approach
 Data was dumped as ZIP files within ZIP files. A script was written to read and aggregate all the data into 1 file for every month.
 Due to size and memory limitations, data for the last 11 days of November was analyzed and explored to understand it’s inital structure.
