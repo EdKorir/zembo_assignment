@@ -22,3 +22,14 @@ jupyter notebook == 7.0.8
 
 Battery Data Analysis and Modelling.ipynb is the main notebook where all the analysis is done.
 battery_data.py is the scripts that collects data from all the CSVs and creates one CSV for the month.
+
+### Approach
+Data was dumped as ZIP files within ZIP files. A script was written to read and aggregate all the data into 1 file for every month.
+Due to size and memory limitations, data for the last 11 days of November was analyzed and explored to understand it’s inital structure.
+From the EDA (exploatory data analysis) performed, data preparation steps were performed. These included removal of missing values, data type change and filling missing values, feature engineering etc.
+The prepared data was then analyzed and used for modelling.
+
+### Instructions to execute code
+1. Install the packages under Requirements using: pip install <package == version>
+2. Change the path under r'C:\Users\Edward Korir\Documents\nov_battery.csv' in cell 2 of the notebook to point to the data file (sent seperately)
+3. Execute the notebook cell by cell.
